@@ -1,13 +1,13 @@
 {
-  "name": "@elastic/fontnik",
+  "name": "@robinpowered/fontnik",
   "version": "0.1.0",
   "description": "Creates signed distance fields out of OpenType/TrueType fonts",
   "author": "Konstantin Käfer <mail@kkaefer.com>",
   "license": "BSD-2-Clause",
   "main": "lib/sdf.js",
   "dependencies": {
-    "opentype.js": "git+https://github.com/nodebox/opentype.js.git",
-    "pbf": "git+https://github.com/mapbox/pbf.git",
+    "opentype.js": "https://github.com/opentypejs/opentype.js/tarball/0.11.0",
+    "pbf": "https://github.com/mapbox/pbf/tarball/v1.3.6",
     "rbush": "~1.3.2"
   },
   "devDependencies": {
